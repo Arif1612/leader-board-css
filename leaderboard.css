@@ -1,0 +1,69 @@
+/* font poopins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ***********************
+Section 1
+************************** */
+
+.container{
+ width: 870px;
+ height: 679px;
+ left: 285px;
+ top: 130px;
+ background-color: #FFFFFF;
+ border-radius: 5px ;
+ padding-left: 30px;
+
+}
+
+/* Top Players Part */
+h1{
+    color:#562EFF ;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+    padding-right: 16px;
+
+}
+
+hr{
+    margin-top: 30px;
+    color: gray;
+}
+/* Top Blogs */
+
+.blogs{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ grid-row-gap: 30px;
+}
+
+.blog{
+    display: flex;
+}
+
+.blog img{
+    width: 224px;
+    height: 127px;
+    padding-right: 16px;
+}
+.writer{
+    color:#562EFF ;
+}
