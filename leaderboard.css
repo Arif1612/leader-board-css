@@ -18,6 +18,7 @@ Section 1
  background-color: #FFFFFF;
  border-radius: 5px ;
  padding-left: 30px;
+ margin-bottom: 100px;
 
 }
 
@@ -26,12 +27,14 @@ h1{
     color:#562EFF ;
     padding-bottom: 30px;
     padding-top: 30px;
+
 }
 
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 30px;
+    
 }
 .player{
     display: flex;
@@ -53,6 +56,7 @@ hr{
  display: grid;
  grid-template-columns: repeat(2,1fr);
  grid-row-gap: 30px;
+
 }
 
 .blog{
@@ -63,7 +67,47 @@ hr{
     width: 224px;
     height: 127px;
     padding-right: 16px;
+    
 }
 .writer{
     color:#562EFF ;
+}
+
+/* **********************************
+Latest Courses
+********************************** */
+
+.course img{
+    width: 266px;
+    height: 141px;
+
+}
+
+.course-writer{
+ color:#ED6B4F ;
+}
+
+.clock-time{
+    display: flex;
+    align-items: center;
+}
+.star{
+    color:#FFC014; ;
+    padding-right: 11px;
+}
+#no-color{
+    color: #AEAEAE;
+}
+
+#red{
+    color: #FF4A60; 
+    padding-left: 25px;
+}
+
+.courses{
+    
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #FFFFFF;;
 }
